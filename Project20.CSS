@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    color:rgb(155, 151, 151) ;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding:10px 20px;
+}
+
+.menu{
+    display: flex;
+    gap:15px;
+    font-size:40px;
+    
+
+}
+
+ a{
+    text-decoration: none;
+    color:rgb(98, 99, 100);
+    font-size:15px;
+}
+
+a:hover{
+    color:white;
+}
+
+.menu1{
+    color:white;
+
+}
+
+.sub-menu{
+    display:none;
+    background-color:rgb(25, 26, 27);
+    padding:20px 60px 20px 15px;
+    position: absolute;
+}
+.sub-menuDropdown:hover .sub-menu{
+    display: block;
+    list-style: none;
+
+}
+
+.fa-brands{
+   margin-right: 10px; 
+   font-size: 15px;
+}
+
+.hero{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top:50px
+}
+
+button{
+    background-color:rgb(17, 137, 137);
+    border:none;
+    padding:15px 40px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+
+}
+
+.hero h1{
+    color:white;
+   font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero button:hover{
+    background-color: rgb(144, 216, 216);
+}
+.green-effect{
+    background-color: rgb(20, 100, 100);
+    color:rgb(17, 118, 118);
+    width:185px;
+    position:absolute;
+    margin-top:24px;
+    z-index: -1; 
+    margin-left:150px;
+    
+     
+}
+
+.text{
+    margin: 2px 30%;
+    margin-bottom: 10px;
+}
+.Featured-title{
+    display: grid;
+    gap: 2px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    margin-top: 40px;
+    
+
+}
+.Featured-parent{
+    height: 310px;
+    width:230px;
+    background-color:rgb(245, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.Featured-parent img{
+    margin-top: 30px;
+    height: 100px;
+    width:100px;
+}
+
+.Courses-parent{
+    
+    /* height: 310px;
+    width:230px; */
+    /* background-color:rgb(245, 240, 240); */
+    /* border-radius: 8px; */
+    /* box-shadow: 0px 1px 2px; */
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left:20px;
+    margin-right: 20px;
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 300px);
+    margin-top: 40px;
+}
+
+.Courses-parent img{
+    margin-top:30px;
+    height: 250px;
+    width:250px;
+}
